@@ -64,5 +64,6 @@ To enforce strict formatting bounds on the LLM outputs, Gemini's **Structured Ou
         "bias": -50.0
     }
 ]
+
 ⚙️ 4. Local Deployment & DependenciesThe repository demands a local .env setup at the project root node (which is explicitly appended to your .gitignore rules):程式碼片段GEMINI_API_KEY=your_secured_gemini_api_key_here
 📦 Mandatory Python Ecosystem PackagesAll team members must normalize their local working environments using the following dependency stack:Bashpip install google-genai pydantic requests python-dotenv --user
